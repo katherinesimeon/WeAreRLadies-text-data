@@ -1,4 +1,4 @@
-# WeAreRLadies-text-data
+# Text Analysis with @WeAreRLadies
 
 This repo contains materials from @WeAreRLadies text analysis [talk](https://www.meetup.com/rladies-chicago/events/263406265/) presented to [R-Ladies Chicago](https://rladieschicago.org/).  
   
