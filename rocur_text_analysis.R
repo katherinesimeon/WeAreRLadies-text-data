@@ -59,11 +59,11 @@ words %>%
   mutate(word = reorder(word, n)) %>%
   ggplot(aes(word, n)) +
   geom_col(fill = "#88398A") +
+  xlab(NULL) +
+  ylab('n') +
   theme_bw(base_size = 14) +
   theme(panel.grid.major = element_blank(),
         panel.grid.minor = element_blank()) +
-  xlab(NULL) +
-  ylab('n') +
   coord_flip()
 
 
@@ -79,6 +79,7 @@ words %>%
   mutate(sentiment = positive - negative) %>% 
   ggplot(aes(word, sentiment, colour=sentiment)) +
   geom_col() +
+  xlab("") +
   theme_bw(base_size = 14) +
   theme(axis.text.x = element_blank(),
         axis.ticks.x = element_blank(),
@@ -87,7 +88,6 @@ words %>%
         legend.position = c("none"),
         legend.background = element_rect(size=0.5, linetype="solid", 
                                          colour ="#4D4D4D")) +
-  xlab("") +
   scale_colour_gradient2(low = "#FFF0F5", mid = muted("#88398A"), high = "#562457") 
 
 
@@ -197,10 +197,10 @@ curator_tf_idf %>%
   geom_col(show.legend = FALSE) +
   labs(x = NULL, y = "td-idf") +
   facet_wrap(~ Twitter, ncol = 2, scales = "free") +
-  coord_flip() +
   theme_bw(base_size = 14) +
   theme(panel.grid.major = element_blank(),
         panel.grid.minor = element_blank()) +
+  coord_flip() +
   scale_fill_manual(values = c("#88398A","#562457"))
   
 ## Compare the NYC R Conf and rstudioconf term frequencies
@@ -214,11 +214,11 @@ words %>%
   ggplot(aes(x=word, y=n, fill = Twitter)) +
   geom_col(show.legend = FALSE) +
   xlab(NULL) + ylab('Word Frequency') +
-  coord_flip() +
   facet_wrap(~ Twitter, scales = "free") +
   theme_bw(base_size = 14) + 
   theme(panel.grid.major = element_blank(),
         panel.grid.minor = element_blank()) +
+  coord_flip() +
   scale_fill_manual(values = c("#88398A","#562457"))
 
 
