@@ -1,7 +1,11 @@
 # Text Analysis with @WeAreRLadies
 
-This repo contains materials from @WeAreRLadies text analysis [talk](https://www.meetup.com/rladies-chicago/events/263406265/) presented to [R-Ladies Chicago](https://rladieschicago.org/).  
+This repo contains materials from two presentations where we analyzed the text from @WeAreRLadies' tweets:    
   
+ - A [talk](https://www.meetup.com/rladies-chicago/events/263406265/) presented to [R-Ladies Chicago](https://rladieschicago.org/) on August 14, 2019  
+ - A lightning talk presented at [rstudio::conf(2020)](https://rstudio.com/conference/) on January 30, 2020  
+    
+
 The script follows tutorials from [Text Mining with R](https://www.tidytextmining.com/).  
   
   
@@ -11,7 +15,13 @@ The script follows tutorials from [Text Mining with R](https://www.tidytextminin
     
 ## The Data  
   
-the `.csv` file  contains tweets from @WeAreRLadies from August 2018 thru June 2019. It has the following columns:  
+There are two data files (one used for each talk):  
+  
+ - `rocur_tweets_thru_June2019.csv` was used for the talk at R-Ladies Chicago  
+ - `rocur_tweets_thru_Dec2019.csv` was used at rstudio::conf(2020)    
+
+  
+ The data files have the following columns:  
   
 - Tweet.id  
 - Tweet.permalink  
