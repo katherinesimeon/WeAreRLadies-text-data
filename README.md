@@ -15,7 +15,7 @@ The script follows tutorials from [Text Mining with R](https://www.tidytextminin
     
 ## The Data  
   
-There are two data files (one used for each talk):  
+There are two data files, found [here](https://github.com/katherinesimeon/WeAreRLadies-text-data/tree/master/data) (one used for each talk):  
   
  - `rocur_tweets_thru_June2019.csv` was used for the talk at R-Ladies Chicago  
  - `rocur_tweets_thru_Dec2019.csv` was used at rstudio::conf(2020)    
