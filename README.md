@@ -3,7 +3,7 @@
 This repo contains materials from two presentations where we analyzed the text from @WeAreRLadies' tweets:    
   
  - A [talk](https://www.meetup.com/rladies-chicago/events/263406265/) presented to [R-Ladies Chicago](https://rladieschicago.org/) on August 14, 2019  
- - A lightning talk presented at [rstudio::conf(2020)](https://rstudio.com/conference/) on January 30, 2020  
+ - A lightning talk presented at [rstudio::conf(2020)](https://resources.rstudio.com/rstudio-conf-2020/lightning-talk-katherine-simeon) on January 30, 2020  
     
 
 The script follows tutorials from [Text Mining with R](https://www.tidytextmining.com/).  
